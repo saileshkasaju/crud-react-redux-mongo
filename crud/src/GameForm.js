@@ -11,7 +11,7 @@ class GameForm extends React.Component {
     handleChange = (e) => {
         if(!!this.state.errors[e.target.name]) {
             let errors = Object.assign({}, this.state.errors);
-            delete errors[e.targer.name];
+            delete errors[e.target.name];
             this.setState({
                 [e.target.name]: e.target.value,
                 errors
