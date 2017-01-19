@@ -87,6 +87,8 @@ class GameForm extends React.Component {
         );
     }
 }
-
+GameForm.propTypes = {
+    saveGame: React.PropTypes.func.isRequired
+};
 
 export default connect(null, { saveGame })(GameForm);
