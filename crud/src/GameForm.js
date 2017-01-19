@@ -1,5 +1,7 @@
 import React, {PropTypes} from 'react';
 import classnames from 'classnames';
+import { connect } from 'react-redux';
+import { saveGame } from './actions';
 
 class GameForm extends React.Component {
     state = {
@@ -7,7 +9,7 @@ class GameForm extends React.Component {
         cover: '',
         errors: {},
         loading: false
-    };
+    }
 
     handleChange = (e) => {
         if(!!this.state.errors[e.target.name]) {
@@ -18,31 +20,36 @@ class GameForm extends React.Component {
                 errors
             });
         } else {
-            this.setState({
-                [e.target.name]: e.target.value
-            });
+            this.setState({ [e.target.name]: e.target.value });
         }
-    };
+    }
+    
     handleSubmit = (e) => {
         e.preventDefault();
 
         // validation
         let errors = {};
         if (this.state.title === '') errors.title = "Can't be empty";
-        if (this.state.cover === '') errors.title = "Can't be empty";
+        if (this.state.cover === '') errors.cover = "Can't be empty";
         this.setState({errors});
         const isValid = Object.keys(errors).length === 0;
 
         if (isValid) {
             const { title, cover } = this.state;
             this.setState({ loading: true });
-            // this.props.saveGame({ title, cover });
+            this.props.saveGame({ title, cover }).then(
+                () => {},
+                (err) => err.response.json().then(({errors}) => this.setState({ errors, loading: false }))
+            );
         }
-    };
+    }
+
     render() {
         return (
             <form className={classnames('ui', 'form', { loading: this.state.loading })} onSubmit={this.handleSubmit}>
                 <h1>Add new Game</h1>
+
+                {!!this.state.errors.global && <div className="ui negative message"><p>{this.state.errors.global}</p></div> }
                 <div className={classnames('field', { error: !!this.state.errors.title })}>
                     <label htmlFor="title">Title</label>
                     <input
@@ -75,5 +82,4 @@ class GameForm extends React.Component {
 }
 
 
-
-export default GameForm;
+export default connect(null, { saveGame })(GameForm);
