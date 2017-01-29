@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router';
+
 export default function GameCard({ game }) {
     return (
         <div className="ui card">
@@ -8,6 +10,13 @@ export default function GameCard({ game }) {
             <div className="content">
                 <div className="header">{game.title}</div>
             </div>
+            <div className="extra content">
+                <div className="ui two buttons">
+                    <Link to={`/game/${game._id}`} className="ui basic button green">Edit</Link>
+                    <Link to={`/game/${game._id}`} className="ui basic button red">Delete</Link>
+                </div>
+            </div>
+
         </div>
     );
 }
