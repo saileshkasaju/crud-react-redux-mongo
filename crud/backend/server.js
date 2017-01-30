@@ -4,7 +4,8 @@ import bodyParser from 'body-parser';
 
 const app = express();
 app.use(bodyParser.json());
-const dbUrl = 'mongodb://localhost/crudwithredux';
+// const dbUrl = 'mongodb://localhost/crudwithredux';
+const dbUrl = 'mongodb://react:reactpass@ds137149.mlab.com:37149/shared';
 
 function validate(data) {
   let errors = {};
