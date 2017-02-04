@@ -1,7 +1,5 @@
 import React from 'react';
 import classnames from 'classnames';
-import { connect } from 'react-redux';
-import { Redirect } from 'react-router';
 
 class GameForm extends React.Component {
   state = {
@@ -20,11 +18,6 @@ class GameForm extends React.Component {
     });
   };
   
-  componentDidMount = () => {
-    if (this.props.params._id) {
-      this.props.fetchGame(this.props.params._id);
-    }
-  };
   
   handleChange = (e) => {
     if(!!this.state.errors[e.target.name]) {

@@ -61,6 +61,17 @@ mongodb.MongoClient.connect(dbUrl, function(err, db) {
       res.json({ game })
     })
   });
+  
+  app.delete('/api/games/:_id', (req, res) => {
+    db.collection('games').deleteOne({ _id: new mongodb.ObjectID(req.params._id) },
+      (err, r) => {
+        if (err) { res.status(500).json({ errors: { global: err }});
+          return;
+        }
+        res.json({});
+      })
+  });
+  
   app.use((req, res) => {
     res.status(404).json({
       errors: {
@@ -68,6 +79,8 @@ mongodb.MongoClient.connect(dbUrl, function(err, db) {
       }
     })
   });
+  
+  
   app.listen(8080, () => console.log('Server is running on localhost:8080'));
   
 });
