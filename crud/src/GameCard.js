@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { NavLink as Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 export default function GameCard({ game, deleteGame }) {
   return (
@@ -16,12 +17,11 @@ export default function GameCard({ game, deleteGame }) {
           <div className="ui basic button red" onClick={() => deleteGame(game._id)}>Delete</div>
         </div>
       </div>
-    
     </div>
   );
 }
 
 GameCard.propTypes = {
-  game: React.PropTypes.object.isRequired,
-  deleteGame: React.PropTypes.func.isRequired
+  game: PropTypes.object.isRequired,
+  deleteGame: PropTypes.func.isRequired
 };

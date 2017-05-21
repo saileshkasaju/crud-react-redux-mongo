@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import PropTypes from 'prop-types';
 
 class GameForm extends React.Component {
   state = {
@@ -92,6 +93,6 @@ class GameForm extends React.Component {
   }
 }
 GameForm.propTypes = {
-  saveGame: React.PropTypes.func.isRequired
+  saveGame: PropTypes.func.isRequired
 };
 export default GameForm;
