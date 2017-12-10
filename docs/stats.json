@@ -1,60 +1,52 @@
 {
   "assetsByChunkName": {
-    "path---js": [
-      "path---js-6625c8c0dd75003e3886.js",
-      "path---js-6625c8c0dd75003e3886.js.map"
+    "path---tags-hello-world": [
+      "path---tags-hello-world-735dc66a886dd25689d8.js",
+      "path---tags-hello-world-735dc66a886dd25689d8.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-d315ac8bdb0494877884.js",
-      "component---src-pages-index-js-d315ac8bdb0494877884.js.map"
+      "component---src-pages-index-js-71449ff68c82b365f7ef.js",
+      "component---src-pages-index-js-71449ff68c82b365f7ef.js.map"
     ],
     "path---tags-first-post": [
-      "path---tags-first-post-1a30efb48684becb49e8.js",
-      "path---tags-first-post-1a30efb48684becb49e8.js.map"
+      "path---tags-first-post-300bfa554f3c2b2dc074.js",
+      "path---tags-first-post-300bfa554f3c2b2dc074.js.map"
     ],
     "component---src-templates-tags-js": [
-      "component---src-templates-tags-js-5009209d2e9c2bc72483.js",
-      "component---src-templates-tags-js-5009209d2e9c2bc72483.js.map"
-    ],
-    "path---tags-christmas": [
-      "path---tags-christmas-1f15f6c394c3b43cbfd1.js",
-      "path---tags-christmas-1f15f6c394c3b43cbfd1.js.map"
+      "component---src-templates-tags-js-7d80901e8b8b5644e60d.js",
+      "component---src-templates-tags-js-7d80901e8b8b5644e60d.js.map"
     ],
     "path---tags": [
-      "path---tags-2c81015c74853bbb516d.js",
-      "path---tags-2c81015c74853bbb516d.js.map"
+      "path---tags-47b95d08c8861a2866dd.js",
+      "path---tags-47b95d08c8861a2866dd.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-welcome": [
-      "path---tags-welcome-f4c815958b2066d271f3.js",
-      "path---tags-welcome-f4c815958b2066d271f3.js.map"
-    ],
-    "path---tags-intro": [
-      "path---tags-intro-f8194fd53cd7967ea60f.js",
-      "path---tags-intro-f8194fd53cd7967ea60f.js.map"
-    ],
-    "path---tags-festival": [
-      "path---tags-festival-fc8751b04a7862b3c231.js",
-      "path---tags-festival-fc8751b04a7862b3c231.js.map"
+      "path---tags-welcome-38901a96e4da7d9c5e86.js",
+      "path---tags-welcome-38901a96e4da7d9c5e86.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-33e01c577b2b4c0fdeb6.js",
-      "component---src-templates-blog-post-js-33e01c577b2b4c0fdeb6.js.map"
+      "component---src-templates-blog-post-js-73e08384199396aebf7a.js",
+      "component---src-templates-blog-post-js-73e08384199396aebf7a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-ec92f07030624c4430e7.js",
-      "component---src-layouts-index-js-ec92f07030624c4430e7.js.map"
+      "component---src-layouts-index-js-f20f3cff15d65e462766.js",
+      "component---src-layouts-index-js-f20f3cff15d65e462766.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-ddc3fbe527618c06eba3.js",
-      "path---index-ddc3fbe527618c06eba3.js.map"
+      "path---index-4bdf72b45d30a31a0597.js",
+      "path---index-4bdf72b45d30a31a0597.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-b6ab466bb0163ba4b48a.js",
+      "path---hello-world-b6ab466bb0163ba4b48a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -68,22 +60,18 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---tags-post": [
-      "path---tags-post-f10bc0a762960ecfcef0.js",
-      "path---tags-post-f10bc0a762960ecfcef0.js.map"
-    ],
     "component---src-templates-all-tags-js": [
-      "component---src-templates-all-tags-js-f0d25afb72bb3f83f560.js",
-      "component---src-templates-all-tags-js-f0d25afb72bb3f83f560.js.map"
+      "component---src-templates-all-tags-js-25d60fde2f08221d4d14.js",
+      "component---src-templates-all-tags-js-25d60fde2f08221d4d14.js.map"
     ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-5a9c465aafed7212e627.js",
+      "app-b3b2e1ecd3516b88a77a.js",
       "build-js-styles.css",
-      "app-5a9c465aafed7212e627.js.map",
+      "app-b3b2e1ecd3516b88a77a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -91,16 +79,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-js": [
-      "path---tags-js-c49ea1212252661d3a37.js",
-      "path---tags-js-c49ea1212252661d3a37.js.map"
-    ],
-    "path---merry-christmas": [
-      "path---merry-christmas-1a4d476e67eb7e84ab93.js",
-      "path---merry-christmas-1a4d476e67eb7e84ab93.js.map"
-    ],
-    "path---welcome": [
-      "path---welcome-fe9749b2b71e794763b6.js",
-      "path---welcome-fe9749b2b71e794763b6.js.map"
+      "path---tags-js-d02ba08173582683edb4.js",
+      "path---tags-js-d02ba08173582683edb4.js.map"
     ]
   }
 }

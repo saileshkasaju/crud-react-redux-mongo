@@ -1,2 +1,0 @@
-webpackJsonp([51430528134425],{318:function(s,e){s.exports={pathContext:{posts:[{html:"<h1>ARRRROOOOOOOOOO</h1>\n<p>Chrismas is coming here...</p>",id:"/home/sailesh/workspace/crud-react-redux-mongo/my-blog/src/pages/2017-12-11-merry-christmas/index.md absPath of file >>> MarkdownRemark",frontmatter:{date:"2017-12-11T11:56:59.165Z",path:"/merry-christmas",title:"Merry christmas",excerpt:"Merry chistmas season is coming!",tags:["christmas","js","festival"]}}],tagName:"christmas"}}}});
-//# sourceMappingURL=path---tags-christmas-1f15f6c394c3b43cbfd1.js.map
