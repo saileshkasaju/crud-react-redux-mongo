@@ -1,0 +1,106 @@
+{
+  "assetsByChunkName": {
+    "path---js": [
+      "path---js-814f45bd18a93ac542a7.js",
+      "path---js-814f45bd18a93ac542a7.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-d315ac8bdb0494877884.js",
+      "component---src-pages-index-js-d315ac8bdb0494877884.js.map"
+    ],
+    "path---tags-first-post": [
+      "path---tags-first-post-1a30efb48684becb49e8.js",
+      "path---tags-first-post-1a30efb48684becb49e8.js.map"
+    ],
+    "component---src-templates-tags-js": [
+      "component---src-templates-tags-js-5009209d2e9c2bc72483.js",
+      "component---src-templates-tags-js-5009209d2e9c2bc72483.js.map"
+    ],
+    "path---tags-christmas": [
+      "path---tags-christmas-1f15f6c394c3b43cbfd1.js",
+      "path---tags-christmas-1f15f6c394c3b43cbfd1.js.map"
+    ],
+    "path---tags": [
+      "path---tags-2c81015c74853bbb516d.js",
+      "path---tags-2c81015c74853bbb516d.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---tags-welcome": [
+      "path---tags-welcome-f4c815958b2066d271f3.js",
+      "path---tags-welcome-f4c815958b2066d271f3.js.map"
+    ],
+    "path---tags-intro": [
+      "path---tags-intro-f8194fd53cd7967ea60f.js",
+      "path---tags-intro-f8194fd53cd7967ea60f.js.map"
+    ],
+    "path---tags-festival": [
+      "path---tags-festival-fc8751b04a7862b3c231.js",
+      "path---tags-festival-fc8751b04a7862b3c231.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-33e01c577b2b4c0fdeb6.js",
+      "component---src-templates-blog-post-js-33e01c577b2b4c0fdeb6.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-581712055be75951d4f4.js",
+      "component---src-layouts-index-js-581712055be75951d4f4.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-b51ebbf6e32c8be11865.js",
+      "path---index-b51ebbf6e32c8be11865.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-f0c47e73f93deeaea2ad.js",
+      "commons-f0c47e73f93deeaea2ad.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-post": [
+      "path---tags-post-f10bc0a762960ecfcef0.js",
+      "path---tags-post-f10bc0a762960ecfcef0.js.map"
+    ],
+    "component---src-templates-all-tags-js": [
+      "component---src-templates-all-tags-js-f0d25afb72bb3f83f560.js",
+      "component---src-templates-all-tags-js-f0d25afb72bb3f83f560.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "app": [
+      "app-bb739a836b4334cd1796.js",
+      "build-js-styles.css",
+      "app-bb739a836b4334cd1796.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-js": [
+      "path---tags-js-29f66c7da937fd987fb5.js",
+      "path---tags-js-29f66c7da937fd987fb5.js.map"
+    ],
+    "path---merry-christmas": [
+      "path---merry-christmas-da8707a3f916ebfb50a8.js",
+      "path---merry-christmas-da8707a3f916ebfb50a8.js.map"
+    ],
+    "path---welcome": [
+      "path---welcome-7d35bd68b0bd75044041.js",
+      "path---welcome-7d35bd68b0bd75044041.js.map"
+    ]
+  }
+}
