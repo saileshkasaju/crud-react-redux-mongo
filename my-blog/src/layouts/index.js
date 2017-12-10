@@ -31,15 +31,24 @@ const Header = () => (
         </Link>
       </h1>
     </div>
+    <div style={{ textAlign: 'right' }}>
+      <a href="http://js.org" title="JS.ORG | JavaScript Community">
+        <img
+          src="http://logo.js.org/bright_tiny.png"
+          width="102"
+          alt="JS.ORG Logo"
+        />
+      </a>
+    </div>
   </div>
 );
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="SAILESH.JS.org"
+      title="SAILESH.JS.ORG"
       meta={[
-        { name: 'description', content: 'Sailesh Kasaju' },
+        { name: 'description', content: 'Sailesh JS Blog' },
         { name: 'keywords', content: 'js, developer' }
       ]}
     />

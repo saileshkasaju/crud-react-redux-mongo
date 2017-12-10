@@ -10,14 +10,11 @@ const Template = ({ data, /* location,*/ pathContext }) => {
 
   return (
     <div>
-      <Helmet title={`${frontmatter.title} - My Blog`} />
-
+      <Helmet title={`${frontmatter.title} - Sailesh`} />
       <div>
         <h1>{title}</h1>
         <h3>{date}</h3>
-
         <div dangerouslySetInnerHTML={{ __html: html }} />
-
         <p>
           {prev && (
             <Link to={prev.frontmatter.path}>
