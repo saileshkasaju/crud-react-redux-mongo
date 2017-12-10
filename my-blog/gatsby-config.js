@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `JS Blog: Sailesh`
+    title: 'JS Blog: Sailesh'
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-remark`,
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-remark',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `src`,
+        name: 'src',
         path: `${__dirname}/src`
       }
     }

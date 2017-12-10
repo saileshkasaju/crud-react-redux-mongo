@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
 const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
             <p>{frontmatter.date}</p>
             <p>{frontmatter.excerpt}</p>
             <ul>
-              {post.frontmatter.tags.map(tag => {
+              {post.frontmatter.tags.map((tag) => {
                 return (
                   <li key={`post_tags_${tag}`}>
                     <Link to={`/tags/${tag}`}>{tag}</Link>

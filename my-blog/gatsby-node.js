@@ -1,14 +1,14 @@
-const path = require("path");
+const path = require('path');
 
 const createTagPages = (createPage, posts) => {
-  const tagPageTemplate = path.resolve(`src/templates/tags.js`);
-  const allTagsTemplate = path.resolve(`src/templates/all-tags.js`);
+  const tagPageTemplate = path.resolve('src/templates/tags.js');
+  const allTagsTemplate = path.resolve('src/templates/all-tags.js');
 
   const postsByTags = {};
 
   posts.forEach(({ node }) => {
     if (node.frontmatter.tags) {
-      node.frontmatter.tags.forEach(tag => {
+      node.frontmatter.tags.forEach((tag) => {
         if (!postsByTags[tag]) {
           postsByTags[tag] = [];
         }
@@ -21,14 +21,14 @@ const createTagPages = (createPage, posts) => {
   const tags = Object.keys(postsByTags);
 
   createPage({
-    path: `/tags`,
+    path: '/tags',
     component: allTagsTemplate,
     context: {
       tags: tags.sort()
     }
   });
 
-  tags.forEach(tagName => {
+  tags.forEach((tagName) => {
     const posts = postsByTags[tagName];
 
     createPage({
@@ -44,7 +44,7 @@ const createTagPages = (createPage, posts) => {
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
+  const blogPostTemplate = path.resolve('src/templates/blog-post.js');
 
   return graphql(`
     {
@@ -64,7 +64,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
@@ -74,12 +74,13 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     createTagPages(createPage, posts);
 
     posts.forEach(({ node }, index) => {
+      const maxPageIndex = posts.length - 1;
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,
         context: {
           prev: index === 0 ? null : posts[index - 1].node,
-          next: index === (posts.length - 1) ? null : posts[index + 1].node
+          next: index === maxPageIndex ? null : posts[index + 1].node
         }
       });
     });

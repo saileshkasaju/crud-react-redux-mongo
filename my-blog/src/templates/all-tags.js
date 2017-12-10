@@ -1,16 +1,15 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
 const AllTags = ({ pathContext }) => {
   const { tags } = pathContext;
-
   if (tags) {
     return (
       <div>
         <ul>
-          {tags.map(tag => {
+          {tags.map((tag) => {
             return (
-              <li>
+              <li key={`all_tag_${tag}`}>
                 <Link to={`/tags/${tag}`}>{tag}</Link>
               </li>
             );
