@@ -32,9 +32,9 @@ const Header = () => (
       </h1>
     </div>
     <div style={{ textAlign: 'right' }}>
-      <a href="http://js.org" title="JS.ORG | JavaScript Community">
+      <a href="https://js.org" title="JS.ORG | JavaScript Community">
         <img
-          src="http://logo.js.org/bright_tiny.png"
+          src="https://logo.js.org/bright_tiny.png"
           width="102"
           alt="JS.ORG Logo"
         />
