@@ -31,6 +31,25 @@ const Header = () => (
         </Link>
       </h1>
     </div>
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '1.45rem 1.0875rem'
+      }}
+    >
+      <h2 style={{ margin: 0 }}>
+        <Link
+          to="/about-me"
+          style={{
+            color: 'white',
+            textDecoration: 'none'
+          }}
+        >
+          About me
+        </Link>
+      </h2>
+    </div>
     <div style={{ textAlign: 'right' }}>
       <a href="https://js.org" title="JS.ORG | JavaScript Community">
         <img
