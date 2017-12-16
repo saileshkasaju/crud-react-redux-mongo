@@ -9,7 +9,7 @@ excerpt: "JS hello world blog post"
 ## Hello World
 
 This blog begins with a hello world like any other programming book :)
-For me programming hsa been like a challenging game like chess. The more I do, the more I seem to get better at it. Along the way, I find many more experienced players on the way.
+For me programming has been like a challenging game like chess. The more I do, the more I seem to get better at it. Along the way, I find many more experienced players on the way.
 
 I started a career in programming as a Software [RnD][software department researcher] in [RTS](http://rts.com.np "Real Time Solutions"). My college mates Ruraj, Sagun and Sushan pulled me there as they planned to go abroad for further studies. There I started learning core java, and then spring framework. For the front end I knew plain html and js, which gradually changed upgraded angular. Mysql databases were used which changed to postgres. PHP full stack applications turned to java sping-boot. And later, I found simplicity in writing everything in JS, the same v8 engine in mongo shell, node, and browsers made sence for web apps.
 
