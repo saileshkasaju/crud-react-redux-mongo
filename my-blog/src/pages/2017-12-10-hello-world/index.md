@@ -3,7 +3,7 @@ path: "/hello-world"
 date: "2017-12-10T21:07:59.165Z"
 title: "Hello JS World"
 tags: ['first post', 'js', 'hello world', 'welcome']
-excerpt: "JS hello world blog post"
+excerpt: "This blog begins with a hello world like any other programming book :)"
 ---
 
 ## Hello World

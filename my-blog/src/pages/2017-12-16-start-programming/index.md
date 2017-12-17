@@ -3,7 +3,7 @@ path: "/start-programming"
 date: "2017-12-16T18:30:59.165Z"
 title: "Start Programming"
 tags: ['programmer', 'programming', 'why', 'start', 'coding']
-excerpt: "Should you learn how to program"
+excerpt: 'Galileo Galilei once said, "We cannot teach people anything. We can only help them discover it within themselves.”'
 ---
 
 ## What is programming? What is a programming language?
