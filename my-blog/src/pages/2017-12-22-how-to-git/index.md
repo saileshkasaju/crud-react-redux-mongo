@@ -3,7 +3,7 @@ path: "/how-to-git"
 date: "2017-12-22T23:29:59.165Z"
 title: "How to git"
 tags: ['git', 'project', 'CI', 'programming', 'coding']
-excerpt: 'Learning a programming language is one thing, and taking on programming as a career is a whole different domain. Learning a programming language is the same as learning any other language. It will expand your potential. It gives you an oppertunity to exercise your mind. After learning any language, you can now go further interacting with others who know the same language. Maybe read some literature or something else prepared with this language.'
+excerpt: "I won't explain how to setup git in your system. It is quite easy. And I don't want to compare github with gitlab or bitbucket, or others. This will be a straight forward walkthrough with the way I understand the best use of GIT. You will just need the basic git setup in your system to follow. If you don't have git in your system already, I'll be here waiting till you do so."
 ---
 
 ## How to GIT
