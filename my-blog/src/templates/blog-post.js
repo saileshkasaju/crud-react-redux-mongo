@@ -2,15 +2,21 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-const Template = ({ data, /* location,*/ pathContext }) => {
+const Template = ({ data, pathContext }) => {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = post;
-  const { title, date } = frontmatter;
+  const { title, date, exerpt, tags } = frontmatter;
   const { next, prev } = pathContext;
 
   return (
     <div>
-      <Helmet title={`${frontmatter.title} - Sailesh`} />
+      <Helmet
+        title={`${frontmatter.title}`}
+        meta={[
+          { name: 'description', content: exerpt },
+          { name: 'keywords', content: tags.join() }
+        ]}
+      />
       <div>
         <h1>{title}</h1>
         <h3>{date}</h3>

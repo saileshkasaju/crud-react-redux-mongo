@@ -3,7 +3,7 @@ path: "/start-programming"
 date: "2017-12-16T18:30:59.165Z"
 title: "Start Programming"
 tags: ['programmer', 'programming', 'why', 'start', 'coding']
-excerpt: 'Galileo Galilei once said, "We cannot teach people anything. We can only help them discover it within themselves.”'
+excerpt: 'Learning a programming language is one thing, and taking on programming as a career is a whole different domain. Learning a programming language is the same as learning any other language. It will expand your potential. It gives you an oppertunity to exercise your mind. After learning any language, you can now go further interacting with others who know the same language. Maybe read some literature or something else prepared with this language.'
 ---
 
 ## What is programming? What is a programming language?

@@ -3,7 +3,7 @@ path: "/hello-world"
 date: "2017-12-10T21:07:59.165Z"
 title: "Hello JS World"
 tags: ['first post', 'js', 'hello world', 'welcome']
-excerpt: "This blog begins with a hello world like any other programming book :)"
+excerpt: "For me programming has been like a challenging game like chess. The more I do, the more I seem to get better at it. Along the way, I find many more experienced players on the way."
 ---
 
 ## Hello World
