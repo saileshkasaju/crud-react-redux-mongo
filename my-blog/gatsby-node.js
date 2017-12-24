@@ -75,13 +75,12 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
     posts.forEach(({ node }, index) => {
       const maxPageIndex = posts.length - 1;
+      const prev = index === 0 ? null : posts[index - 1].node;
+      const next = index === maxPageIndex ? null : posts[index + 1].node;
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,
-        context: {
-          prev: index === 0 ? null : posts[index - 1].node,
-          next: index === maxPageIndex ? null : posts[index + 1].node
-        }
+        context: { prev, next }
       });
     });
   });
